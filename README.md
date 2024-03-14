@@ -1,7 +1,13 @@
 ## IES Ágora – Examen 2ª Evaluación CFGS DAM 1º EEDD—15 de marzo de 2024
 Ejercicios sobre las partes Refactorización y Depuración
+### Ejercicio 1. (4 puntos)
+Parte git/github, ve a la url https://github.com/amg-ia/Examen y sigue las instrucciones que el fichero readme.md indica.
 
-### Ejercicio 2.
+----
+
+### Ejercicio 2. (2 puntos)
+Refactoriza y limpia el siguiente código en python:
+
 ~~~python
 # Cálculo del área de un círculo y su circunferencia
 import math
@@ -21,7 +27,7 @@ print(f"Circunferencia del círculo: {circunferencia:.2f}")
 ~~~
 ----
 
-### Ejercicio 3.
+### Ejercicio 3. (4 puntos)
 Necesitas arreglar tu informe de gastos, aparentemente algo no cuadra del todo.
 Específicamente, necesitas encontrar las dos entradas que suman **2020** y luego multiplicar esos dos números.
 Por ejemplo, supongamos que su informe de gastos contiene lo siguiente:
@@ -34,9 +40,11 @@ Por ejemplo, supongamos que su informe de gastos contiene lo siguiente:
 1456
 
 En esta lista, las dos entradas que suman 2020 son 1721 y 299. Multiplicarlos produce 1721 * 299 = 514579, por lo que la respuesta correcta es **514579**.
-Por supuesto, su informe de gastos es mucho mayor. Encuentre las dos entradas que suman **2020**; ¿Qué obtienes si los multiplicas?
+Por supuesto, su informe de gastos es mucho mayor y se encuentra disponible en el fichero **gastos.dat** del repositorio. Encuentre las dos entradas que suman **2020**; ¿Qué obtienes si los multiplicas?
 
 El siguiente código es capaz de resolver el problema aunque tiene un error. Copialo en tu IDE y busca opciones de refactorización y de optimización. 
+El resultado esperado es 646779
+Revisa el código para encontrar el error y procede a realizar las refactorizaciones que encuentre más adecuadas.
 ~~~python
 a = open("gastos.dat","r")
 data = a.read().splitlines()
