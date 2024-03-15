@@ -44,6 +44,7 @@ Por supuesto, su informe de gastos es mucho mayor y se encuentra disponible en e
 
 El siguiente código es capaz de resolver el problema aunque tiene un error. Copialo en tu IDE y busca opciones de refactorización y de optimización. 
 Revisa el código para encontrar el error y procede a realizar las refactorizaciones que encuentre más adecuadas.
+
 ***¡¡NOTA!!*** El resultado esperado es ***646779***
 ~~~python
 a = open("gastos.dat","r")
