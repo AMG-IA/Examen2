@@ -43,8 +43,8 @@ En esta lista, las dos entradas que suman 2020 son 1721 y 299. Multiplicarlos pr
 Por supuesto, su informe de gastos es mucho mayor y se encuentra disponible en el fichero **gastos.dat** del repositorio. Encuentre las dos entradas que suman **2020**; ¿Qué obtienes si los multiplicas?
 
 El siguiente código es capaz de resolver el problema aunque tiene un error. Copialo en tu IDE y busca opciones de refactorización y de optimización. 
-El resultado esperado es 646779
 Revisa el código para encontrar el error y procede a realizar las refactorizaciones que encuentre más adecuadas.
+***¡¡NOTA!!*** El resultado esperado es ***646779***
 ~~~python
 a = open("gastos.dat","r")
 data = a.read().splitlines()
